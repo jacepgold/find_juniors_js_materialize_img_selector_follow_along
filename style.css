@@ -17,13 +17,11 @@ main {
   text-transform: uppercase;
 }
 
-
 .brand-logo {
   padding-left: 15px !important;
 }
 
 /* Add a drop shadow to the image */
-
 img {
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
