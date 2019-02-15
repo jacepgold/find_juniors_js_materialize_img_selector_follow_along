@@ -9,6 +9,7 @@ $(document).ready(function() {
   }
 
   $("#select-btns").click(function (e) {
+    e.preventDefault();
     // This will show us the element so we can destructure it
     // to get the values needed
     console.table(e.target);

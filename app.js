@@ -13,10 +13,8 @@ var selectButtons = document.getElementById('select-btns');
 
 // Now we add logic to change the picture when clicking a button
 function changeImage(newImg, newCaption) {
-  console.log('caption = ' + newCaption)
   image.setAttribute('alt', newCaption);
   image.setAttribute('src', `images/${newImg}.jpg`);
-  console.log(image);
   caption.innerHTML = newCaption;
 }
 
