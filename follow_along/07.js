@@ -1,5 +1,5 @@
 // First we assign our display elements (the picture and caption) to a variable
-var image = document.getElementById('the-image');
+var image = document.getElementById('image');
 var caption = document.getElementById('caption');
 var newImg = null;
 
