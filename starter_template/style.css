@@ -1,0 +1,29 @@
+body {
+  background-image: url('images/background.jpg');
+  background-size: cover;
+}
+
+main {
+  width: 100vw;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#caption {
+  width: 100vw;
+  color: maroon;
+  background-color: rgba(255, 255, 255, 0.75);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.brand-logo {
+  padding-left: 15px !important;
+}
+
+/* Add a drop shadow to the image */
+
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
