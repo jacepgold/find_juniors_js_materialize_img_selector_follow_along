@@ -1,11 +1,5 @@
-/*
-  @ Jace P Gold
-  02/14/2019
-  FIND Juniors JavaScript Img Selector Follow Along lessons
-*/
-
 // First we assign our display elements (the picture and caption) to a variable
-var image = document.getElementById('the-image');
+var image = document.getElementById('image');
 var caption = document.getElementById('caption');
 
 // Let's create a variable for our buttons wrapper

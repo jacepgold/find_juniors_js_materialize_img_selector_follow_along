@@ -5,7 +5,7 @@ var caption = document.getElementById('caption');
 // Let's create some variables for our buttons
 var dog = document.getElementById('dog');
 var ferret = document.getElementById('ferret');
-var chewy = document.getElementById('chewbacca');
+var chewy = document.getElementById('chewy');
 
 /*
   Now we add logic to change the picture when clicking a button
